@@ -1,0 +1,16 @@
+{
+  "name": "unplugin-isolated-decl-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "rollup": "^4.27.2",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "typescript": "^5.6.3",
+    "unplugin-isolated-decl": "^0.6.8"
+  }
+}
