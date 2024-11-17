@@ -1,2 +1,2 @@
-export * as foo from './foo';
+export * as baz from './baz';
 export type CustomType = 'unimportant' | 'only' | 'showcase';

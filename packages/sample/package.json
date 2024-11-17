@@ -10,9 +10,9 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./js": {
+    "./bar": {
       "types": "./dist/foo/bar/index.d.ts",
-      "default": "./dist/foo.js"
+      "default": "./dist/bar.js"
     }
   }
 }

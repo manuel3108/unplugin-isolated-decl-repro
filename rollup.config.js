@@ -12,7 +12,7 @@ fs.rmSync(outDir, { force: true, recursive: true });
 /** @type {RollupOptions["input"]} */
 let inputs = {
     index: `${projectRoot}/index.ts`,
-    js: `${projectRoot}/foo/bar/index.ts`,
+    bar: `${projectRoot}/foo/bar/index.ts`,
 };
 
 /** @type {RollupOptions} */
