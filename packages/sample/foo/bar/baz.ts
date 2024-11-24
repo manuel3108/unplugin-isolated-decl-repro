@@ -1,4 +1,4 @@
-import { CustomType } from './index';
+import { CustomType } from './index.ts';
 
 export function important(): CustomType {
     var ct: CustomType = 'showcase';
