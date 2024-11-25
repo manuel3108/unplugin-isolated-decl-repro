@@ -11,6 +11,16 @@
     "rollup": "^4.27.2",
     "rollup-plugin-esbuild": "^6.1.1",
     "typescript": "^5.6.3",
-    "unplugin-isolated-decl": "0.8.0"
+    "unplugin-isolated-decl": "0.8.1"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./bar": {
+      "types": "./dist/bar.d.ts",
+      "default": "./dist/bar.js"
+    }
   }
 }
